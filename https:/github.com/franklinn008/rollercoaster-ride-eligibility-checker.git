@@ -1,0 +1,15 @@
+print ("welcome to spectrum rollercoaster world\n")
+height = int(input("Please enter your height in cm:\n "))
+if height >=120:
+  print("You are eligible to ride the rollercoaster\n")
+  Age = int(input("Please enter your age:\n"))
+  if Age < 12:
+    print("Your fare will be:$5")
+  elif Age <= 18:
+    print("Your fare will be:$7")
+  elif Age <= 25:
+    print("Your fare will be:$12")
+  else:
+    print("Your fare will be:$15")
+else:
+    print("You are not eligible to ride the rollercoaster, Grow more!!")
